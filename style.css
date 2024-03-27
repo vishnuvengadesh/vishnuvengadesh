@@ -1,0 +1,184 @@
+*{
+      margin: 0;
+      padding: 0;
+}
+
+nav img{
+      width: 200px;
+      margin-left: 100px;
+      margin-top: 10px;
+}
+
+nav{
+      
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+}
+nav ul{
+       
+      list-style-type: none;
+      display: flex;
+      justify-content: space-between;
+      width: 42%;
+      margin-right: 10%;
+      margin-top: 5px;
+}
+.pro{
+     background-color: orangered;
+     color: white;
+     border: 0;
+     font-size: xx-small;
+     height: 15px;
+     width: 20px;
+     border-radius: 4px;
+     padding-top: 3px;
+     padding-bottom: 3px;
+}
+.sign{
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    width: 60px;
+    height: 30px;
+}
+nav ul li:hover{
+      cursor: pointer;
+      color: orangered;
+}
+.head1{
+      font-size: 80px;
+      margin-left: 100px;
+      margin-top: 5%;
+      
+}
+.maindiv{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top:20px;
+      margin-left: 100px;
+      margin-right: 10%;
+      
+}
+.maindiv ul li{
+      list-style-type: none;
+
+}
+.subdiv1{
+      display: flex;
+      align-items: center;
+      
+}
+.subdiv2{
+      display: flex;
+      align-items: center;
+
+}
+.subdiv3{
+      display: flex;
+      align-items: center;
+}
+.subdiv4{
+      display: flex;
+      align-items: center;
+}
+.subdiv1 ul, .subdiv2 ul, .subdiv3 ul, .subdiv4 ul{
+      list-style-type: none;
+      margin-left: 10px;
+}
+.subdiv2 img,.subdiv3 img, .subdiv4 img
+{
+      width: 60px;
+}
+.img1
+{
+      margin-left: 80px;
+      margin-top: 5%;
+
+}
+.img2
+{
+      margin-left: 80px;
+      margin-top: 5%;
+
+}
+.more
+{
+      margin-left: 45%;
+      margin-top: 20px;
+      background-color: rgb(240, 235, 235);
+      width: 90px;
+      padding-left: 22px;
+      padding-top: 10px;
+      height: 30px;
+      border-radius: 8px; 
+}
+div .more:hover
+{
+      cursor: pointer;
+}
+.parah1
+{     
+      margin-left: 85px;
+      padding-top: 55px;
+      font-size: 27px;
+      font-weight: 0;
+}
+.logos1
+{
+      margin-left: 15%;
+      width: 70%;
+}
+
+.logos1 .spotify
+{ 
+      margin-bottom: 10%;
+      margin-left: px;
+}
+.logos1 .apple
+{
+      margin-bottom: 40px;
+      margin-left: 23px; 
+}
+
+.logos1 .insta
+{
+      margin-left: 15px;
+      margin-bottom: 33px;
+      width: 12%;
+
+}
+.logos1 .shazam
+{ 
+      margin-bottom: 17px;
+      margin-left: 25px;
+      width: 13%;
+}
+.logos1 .google
+{ 
+      margin-left: 40px;
+      margin-bottom: 20px;
+      width: 11%;
+}
+.logos2
+{
+      width: 60%;
+      margin-bottom: 150px;
+      margin-left: 20%;
+}
+.logos2 .tital
+{
+      width: 25%;
+      margin-right: 10px;
+}
+.logos2 .vevo
+{
+      width: 25%;
+      margin-bottom: 5px;
+}
+.logos2 .bing
+{
+      width: 35%;
+      margin-bottom: 5px;
+}
